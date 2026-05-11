@@ -14,3 +14,10 @@ touch requirements.txt
 
 
 echo "Project structure created successfully!"
+
+# Virtual environment setup
+conda create -n myenv python=3.10 -y
+conda activate myenv
+
+# Installing dependencies
+pip install -r requirements.txt
